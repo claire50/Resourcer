@@ -5,7 +5,7 @@ resource file_types message {
 	"types" = "application/x-be-resource"
 };
 
-resource app_signature "application/resourcer";
+resource app_signature "application/x-vnd.NW-resourcer";
 
 resource app_version {
 	major  = 3.0.0,
