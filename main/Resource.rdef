@@ -15,7 +15,7 @@ resource app_version {
 	variety = B_APPV_DEVELOPMENT,
 	internal = 0,
 
-	short_info = "Resourcer 3.0",
+	short_info = "Resourcer Editor",
 	long_info = "Resourcer Version 3.0 PPC"
 };
 
