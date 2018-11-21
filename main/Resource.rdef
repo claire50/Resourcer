@@ -1,4 +1,26 @@
 
+
+resource file_types message {
+	"types" = "application/x-be-executable",
+	"types" = "application/x-be-resource"
+};
+
+resource app_signature "application/resourcer";
+
+resource app_version {
+	major  = 50331648,
+	middle = 0,
+	minor  = 0,
+
+	variety = B_APPV_DEVELOPMENT,
+	internal = 0,
+
+	short_info = "Resourcer 3.0",
+	long_info = "Resourcer Version 3.0 PPC"
+};
+
+resource app_flags B_SINGLE_LAUNCH;
+
 resource mini_icon array {
 	$"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
 	$"FFFFFFFFFFFFFFFFFFFFFFFFFFFFFADA"
@@ -37,26 +59,6 @@ resource(1, "BEOS:M:application/x-be-resource") #'MICN' array {
 	$"FFFFFFFFFFFFFFFFFF0B0BFFFFFFFFFF"
 };
 
-resource file_types message {
-	"types" = "application/x-be-executable",
-	"types" = "application/x-be-resource"
-};
-
-resource app_signature "application/resourcer";
-
-resource app_version {
-	major  = 50331648,
-	middle = 0,
-	minor  = 0,
-
-	variety = B_APPV_DEVELOPMENT,
-	internal = 0,
-
-	short_info = "Resourcer 3.0",
-	long_info = "Resourcer Version 3.0 PPC"
-};
-
-resource app_flags B_SINGLE_LAUNCH;
 
 resource(1, "BEOS:L:application/x-be-resource") #'ICON' array {
 	$"FFFFFFFFFFFFFFFFFFFFFF00000060606060000000FFFFFFFFFFFFFFFFFFFFFF"
