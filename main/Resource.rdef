@@ -8,7 +8,7 @@ resource file_types message {
 resource app_signature "application/x-vnd.NW-resourcer";
 
 resource app_version {
-	major  = 3.0.0,
+	major  = 3,
 	middle = 0,
 	minor  = 0,
 
