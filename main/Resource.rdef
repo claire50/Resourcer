@@ -13,8 +13,8 @@ resource app_version {
 	variety = B_APPV_DEVELOPMENT,
 	internal = 0,
 
-	short_info = "Resourcer Editor",
-	long_info = "Resourcer Editor - Version 3.0 PPC"
+	short_info = "Resourcer editor",
+	long_info = "A resourcer editor"
 };
 
 resource app_flags B_SINGLE_LAUNCH;
