@@ -1,5 +1,3 @@
-
-
 resource file_types message {
 	"types" = "application/x-be-executable",
 	"types" = "application/x-be-resource"
